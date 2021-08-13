@@ -29,7 +29,8 @@ sudo apt install git -y
 
 #github ssh setup
 ssh-keygen -t ed25519 -C "dchhokra@thebhwgroup.com" -N aks -f ~/.ssh/id_ed25519 -q
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-echo "PUBLIC KEY"
-cat ~/.ssh/id_ed25519.pub
+# eval "$(ssh-agent -s)"
+
+# ssh-add ~/.ssh/id_ed25519
+# echo "PUBLIC KEY"
+# cat ~/.ssh/id_ed25519.pub
