@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # these Keep Failing
-# sudo apt update -y 
-# sudo apt upgrade -y
+sudo apt update -y 
+sudo apt upgrade -y
 
 # jq
 sudo apt install jq -y
