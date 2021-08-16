@@ -24,10 +24,10 @@ sudo apt-get install -y kubectl
 echo "alias k=kubectl" | sudo tee /home/adminuser/.bash_aliases
 
 
-#get github
+# get github
 sudo apt install git -y
 
-#github ssh setup
+# github ssh setup
 # ssh-keygen -t ed25519 -C "dchhokra@thebhwgroup.com" -N aks -f ~/.ssh/id_ed25519 -q
 # eval "$(ssh-agent -s)"
 
